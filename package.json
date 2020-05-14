@@ -11,7 +11,7 @@
     "url": "https://github.com/webroo/react-redux-template.git"
   },
   "scripts": {
-    "clean": "rm -rf ./build",
+    "clean": "del -rf",
     "build-dev": "npm run clean && NODE_ENV=development webpack --config ./webpack/webpack.config.babel.js",
     "build-prod": "npm run clean && NODE_ENV=production webpack --config ./webpack/webpack.config.babel.js -p",
     "build-tests": "npm run clean && NODE_ENV=development webpack --config ./webpack/webpack.tests.config.babel.js",
